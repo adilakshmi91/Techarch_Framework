@@ -22,17 +22,18 @@ public class LoginTeckarch extends TestBase {
 
 	}
 
-	@Test(enabled=false)
+	@Test
 	public void Valid_login() throws Exception {
 		login.Valid_credits();
 		log.info("LoggedIn sucessfully");
 		login.Logout();
-		assertEquals(true,true);
+		Assert.assertEquals("Student Registration Form","Student Registration Form","Text is  matched");
+		//assertEquals(true,true);
 		
 
 	}
 
-	@Test
+	@Test(priority=1)
 	public void invalid_login() throws Exception {
 		login.Invalid_credits();
 		log.info("invalid error logging");
