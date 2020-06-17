@@ -35,7 +35,7 @@ public class LoginTeckarch extends TestBase {
 
 	@Test(priority=1)
 	public void invalid_login() throws Exception {
-		login.Invalid_credits();
+		login.invalid_credits();
 		log.info("invalid error logging");
 
 	}
