@@ -44,7 +44,7 @@ public class PoLogin extends TestBase {
 
 	
 
-	public void Invalid_credits() throws Exception {
+	public void invalid_credits() throws Exception {
 		emailid.clear();
 
 		emailid.sendKeys(System.getProperty("invalidusername"));
